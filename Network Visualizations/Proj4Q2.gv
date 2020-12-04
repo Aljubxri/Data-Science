@@ -1,0 +1,34 @@
+digraph my_graph{
+	
+	A[label = "Norway 1 \n Australia 1", shape="box"]
+	B[label = "England 3 \n Cameroon 0", shape="box"]
+	C[label = "France  2 \n Brazil 1", shape="box"]
+	D[label = "Spain 1 \n  USA 2", shape="box"]
+	E[label = "Italy 2 \n China 0", shape="box"]
+	F[label = "Netherlands 2 \n Japan 1", shape="box"]
+	G[label = " Germany 3 \n Nigeria 0", shape="box"]
+	H[label = "Sweden 1 \n Canada 0", shape="box"]
+	
+	I[label = "Norway 0 \n England 3", shape="box"]
+	J[label = "Norway 0 \n England 3", shape="box"];
+	L[label = "Italy 0 \n Netherlands 2", shape="box"];
+	M[label = "Germany 1 \n Sweden 2", shape="box"];
+
+	N[label = "England 1 \n USA 2", shape="box"];
+	O[label = "Netherlands 1 \n Sweden 0", shape="box"];
+
+
+	A -> I;
+	B -> I ;	
+	C -> J;
+	D -> J;
+	E -> L;
+	F ->L;
+	G ->M;
+	H -> M;
+	I -> N;
+	J -> N;
+	L -> O;
+	M -> O;
+
+}
